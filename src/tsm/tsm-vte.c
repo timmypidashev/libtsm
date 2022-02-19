@@ -212,25 +212,25 @@ static uint8_t color_palette[TSM_COLOR_NUM][3] = {
 };
 
 static uint8_t color_palette_solarized[TSM_COLOR_NUM][3] = {
-	[TSM_COLOR_BLACK]         = {   7,  54,  66 }, /* black */
-	[TSM_COLOR_RED]           = { 220,  50,  47 }, /* red */
-	[TSM_COLOR_GREEN]         = { 133, 153,   0 }, /* green */
-	[TSM_COLOR_YELLOW]        = { 181, 137,   0 }, /* yellow */
-	[TSM_COLOR_BLUE]          = {  38, 139, 210 }, /* blue */
-	[TSM_COLOR_MAGENTA]       = { 211,  54, 130 }, /* magenta */
-	[TSM_COLOR_CYAN]          = {  42, 161, 152 }, /* cyan */
-	[TSM_COLOR_LIGHT_GREY]    = { 238, 232, 213 }, /* light grey */
-	[TSM_COLOR_DARK_GREY]     = {   0,  43,  54 }, /* dark grey */
-	[TSM_COLOR_LIGHT_RED]     = { 203,  75,  22 }, /* light red */
-	[TSM_COLOR_LIGHT_GREEN]   = {  88, 110, 117 }, /* light green */
-	[TSM_COLOR_LIGHT_YELLOW]  = { 101, 123, 131 }, /* light yellow */
-	[TSM_COLOR_LIGHT_BLUE]    = { 131, 148, 150 }, /* light blue */
-	[TSM_COLOR_LIGHT_MAGENTA] = { 108, 113, 196 }, /* light magenta */
-	[TSM_COLOR_LIGHT_CYAN]    = { 147, 161, 161 }, /* light cyan */
-	[TSM_COLOR_WHITE]         = { 253, 246, 227 }, /* white */
+    [COLOR_BLACK]         = {  40,  40,  40 }, /* black */
+    [COLOR_RED]           = { 204,  36,  29 }, /* red */
+    [COLOR_GREEN]         = { 152, 151,  26 }, /* green */
+    [COLOR_YELLOW]        = { 215, 153,  33 }, /* yellow */
+    [COLOR_BLUE]          = {  69, 133, 136 }, /* blue */
+    [COLOR_MAGENTA]       = { 177,  98, 134 }, /* magenta */
+    [COLOR_CYAN]          = { 104, 157, 106 }, /* cyan */
+    [COLOR_LIGHT_GREY]    = { 168, 153, 132 }, /* light grey */
+    [COLOR_DARK_GREY]     = { 146, 131, 116 }, /* dark grey */
+    [COLOR_LIGHT_RED]     = { 251,  73,  52 }, /* light red */
+    [COLOR_LIGHT_GREEN]   = { 184, 187,  38 }, /* light green */
+    [COLOR_LIGHT_YELLOW]  = { 250, 189,  47 }, /* light yellow */
+    [COLOR_LIGHT_BLUE]    = { 131, 165, 152 }, /* light blue */
+    [COLOR_LIGHT_MAGENTA] = { 211, 134, 155 }, /* light magenta */
+    [COLOR_LIGHT_CYAN]    = { 142, 192, 124 }, /* light cyan */
+    [COLOR_WHITE]         = { 235, 219, 178 }, /* white */
 
-	[TSM_COLOR_FOREGROUND]    = { 238, 232, 213 }, /* light grey */
-	[TSM_COLOR_BACKGROUND]    = {   7,  54,  66 }, /* black */
+    [COLOR_FOREGROUND]    = { 235, 219, 178 }, /* white */
+    [COLOR_BACKGROUND]    = {  40,  40,  40 }, /* black */
 };
 
 static uint8_t color_palette_solarized_black[TSM_COLOR_NUM][3] = {
