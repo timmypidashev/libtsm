@@ -230,7 +230,7 @@ static uint8_t color_palette_solarized[TSM_COLOR_NUM][3] = {
     [TSM_COLOR_WHITE]         = { 235, 219, 178 }, /* white */
 
     [TSM_COLOR_FOREGROUND]    = { 235, 219, 178 }, /* white */
-    [TSM_COLOR_BACKGROUND]    = {  40,  40,  40 }, /* black */
+    [TSM_COLOR_BACKGROUND]    = {  0,  0,  0 }, /* black */
 };
 
 static uint8_t color_palette_solarized_black[TSM_COLOR_NUM][3] = {
